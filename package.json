@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-level3",
+  "version": "1.0.0",
+  "description": "Simple Node.js app with Jest test for GitHub Actions Level 3",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  }
+}
